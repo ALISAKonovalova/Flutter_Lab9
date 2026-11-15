@@ -1,17 +1,30 @@
-# slot_machine_konovalova
+# Слот-машина (Лабораторная работа №9)
 
-A new Flutter project.
+**Описание:** Приложение-слот-машина на Flutter. Демонстрирует использование StatefulWidget, управление состоянием через setState(), работу с локальными изображениями и асинхронную анимацию прокрутки барабанов.
 
-## Getting Started
+## Автор
+**Фамилия, Имя:** Коновалова Алиса
+**Группа:** ИСП-242
+**Дата сдачи:** 15.11.2026
 
-This project is a starting point for a Flutter application.
+## Стек и версии
+* Flutter 3.0+
+* Dart 3.0+
+* Платформа: Web (Chrome/Edge)
+* IDE: VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншоты приложения
+![Скриншот 3](img/step3_Konovalova.png)
+![Скриншот 4](img/step4_Konovalova.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Как запустить
+1. Клонировать репозиторий: `git clone https://github.com/ALISAKonovalova/Flutter_Lab9.git`
+2. Перейти в папку: `cd slot_machine_konovalova`
+3. Установить зависимости: `flutter pub get`
+4. Запустить: `flutter run -d chrome` (или `flutter run -d edge`)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что изучили
+1. Разницу между StatelessWidget и StatefulWidget.
+2. Управление состоянием с помощью setState().
+3. Подключение локальных изображений .
+4. Реализацию анимации с задержками и поочередной остановкой элементов.
